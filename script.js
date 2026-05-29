@@ -53,6 +53,7 @@ igual.addEventListener("click", function() {
 
         expressao = expressao.replaceAll("×", "*");
         expressao = expressao.replaceAll("÷", "/");
+        expressao = expressao.replaceAll(",", ".");
 
         visor.value = eval(expressao);
 
